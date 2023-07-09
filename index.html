@@ -230,8 +230,10 @@
 
         <div class="column">
           <div class="column-2 bg-light-grey">
-            <h2>Request Callback</h2>
-            <form class="callback-form" method="POST" data-netlify="true">
+            <h2>Request Callback</h2>     
+
+            <form class="callback-form" name="contact" method="POST"  data-netlify="true" onSubmit = "submit">     
+
               <label for="name"></label>
               <input type="text" id="name" name="name" placeholder="Enter name"><br><br>
 
