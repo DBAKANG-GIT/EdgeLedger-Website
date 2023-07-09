@@ -258,6 +258,13 @@ footer a{
   display: box;
   font-size: 20px;
 }
+
+.recaptcha-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
  
 
 
