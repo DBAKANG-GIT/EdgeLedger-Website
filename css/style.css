@@ -265,6 +265,14 @@ footer a{
   align-items: center;
   margin: 20px 0;
 }
+
+.is-required::after{
+  content: '*';
+  padding-left: 4px;
+  color: red;
+}
+
+
  
 
 
